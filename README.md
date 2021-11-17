@@ -1,4 +1,4 @@
-# pytorch-cifar100
+# pytorch-cifar10
 ## 环境
 python3.7
 
