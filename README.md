@@ -154,3 +154,8 @@ for ep in range(EPOCHES):
 ![image-2](https://github.com/wuzhengyang/IMG/blob/main/image-3.png)
 
 可以观察到，由于学习率特别高，导致损失变大，正确率反而降低。
+
+
+### 学习率影响
+
+![image-2](https://github.com/wuzhengyang/IMG/blob/main/image-5.png)
