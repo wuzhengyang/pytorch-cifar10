@@ -136,11 +136,11 @@ for ep in range(EPOCHES):
 
 训练输出如下所示：
 
+![image-2](https://github.com/wuzhengyang/IMG/blob/main/image-4.png)
 
 模型正确率逐渐收敛，最高正确率达90.44。
 
 当 Epoch：40    LR：0.02
-
 输出如下：
 
 ![image-2](https://github.com/wuzhengyang/IMG/blob/main/image-2.png)
@@ -150,5 +150,7 @@ for ep in range(EPOCHES):
 当Epoch： 40    LR： 0.1 
 
 输出如下：
+
 ![image-2](https://github.com/wuzhengyang/IMG/blob/main/image-3.png)
+
 可以观察到，由于学习率特别高，导致损失变大，正确率反而降低。
