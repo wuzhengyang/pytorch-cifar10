@@ -40,7 +40,7 @@ classes = ('plane', 'car', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship'
 
 选择VGG16。VGGNet是通过对AlexNet的改进，进一步加深了卷积神经网络的深度，采用堆叠3 x 3的卷积层和2 x 2的降采样层，实现11到19层的网络深度。VGG的结构图如下所示。
 
-![image-20211118012449606](https://github.com/wuzhengyang/pytorch-cifar100/blob/295e5a1edc4be4366f439910cca02435723962e5/image-20211118012449606.png)
+![image-20211118012449606](https://github.com/wuzhengyang/pytorch-cifar100/raw/295e5a1edc4be4366f439910cca02435723962e5/image-20211118012449606.png)
 
 VGGNet模型总的来说，分为VGG16和VGG19两类，区别在于模型的层数不同，以下'M'参数代表池化层，数据代表各层滤波器的数量。
 
