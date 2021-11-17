@@ -1,7 +1,5 @@
 """ dynamically load settings
 
-author baiyu
-"""
 import conf.global_settings as settings
 
 class Settings:
