@@ -1,6 +1,7 @@
 # pytorch-cifar100
 ## 环境
 python3.7
+
 pytorch1.6.0+cu10.1
 ## 流程
 
@@ -136,18 +137,18 @@ for ep in range(EPOCHES):
 训练输出如下所示：
 
 
+模型正确率逐渐收敛，最高正确率达90.44。
+
 当 Epoch：40    LR：0.02
 
 输出如下：
 
-![image-20211118013658688](C:\Users\Admin\AppData\Roaming\Typora\typora-user-images\image-20211118013658688.png)
+![image-2](https://github.com/wuzhengyang/IMG/blob/main/image-2.png)
 
 可以观察到，随着模型迭代次数增多，正确率逐渐在一个值附近波动。最高正确率达88.97%
-
-
 
 当Epoch： 40    LR： 0.1 
 
 输出如下：
-
+![image-2](https://github.com/wuzhengyang/IMG/blob/main/image-3.png)
 可以观察到，由于学习率特别高，导致损失变大，正确率反而降低。
